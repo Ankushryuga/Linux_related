@@ -1,0 +1,51 @@
+###	These are the git commands used on daily basis:
+
+##	version = commit
+##	version history = commit history
+
+1. git init 				## initializing the git.
+2. git status				## show all the changes since the previous commit.
+3. git add <file|folder> 		## pick changes to go into next commit.
+4. git add file				## pick individual file
+5. git add folder/			## pick all files inside a folder(and subfolders)
+6. git add .				## pick all files (in folder command line is running on)
+
+
+
+## git commit:
+
+1. git commit -m "message"		## create a commit with a message attached.
+2. git commit -m "message" --amend	## update previous commit instead of new commit.
+
+
+## git log history:
+
+1. git log --all			## show all commits(not just current branch)
+2. git log --all --graph		## show branching visually in the command line.
+
+
+## configure name & email for commits:
+
+1. git config --global user.name "your name"
+2. git config --global user.email "you email"
+
+
+## working area= contains changes start in the working area.
+## staging area= contains changes that will go into the next commit.
+
+1. git add . 				## working => staging
+2. git commit -m "message"		## staging => commit history
+3. git reset <file|folder>		## staging => working
+4. git reset file			
+5. git reset folder/		
+6. git reset .
+7. git checkout --<file|folder>		## working => remove the changes
+8. git checkout -- file
+9. git checkout -- folder/
+10.git checkout .
+
+
+
+
+
+
