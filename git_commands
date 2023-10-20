@@ -42,7 +42,7 @@
 7. git checkout --<file|folder>		## working => remove the changes
 8. git checkout -- file
 9. git checkout -- folder/
-10.git checkout .
+10.git checkout --.
 
 
 
